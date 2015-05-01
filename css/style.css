@@ -1,0 +1,246 @@
+/* GENERAL STYLING BEGIN */
+
+html, body {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+* {
+    margin:0px;
+	padding:0px;
+	font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/* GENERAL STYLING END */
+
+/* LANDING SECTION BEGIN */
+
+#landing_section {
+    background-color: #59ADEC;
+    text-align: center;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+#typing_tester {
+    font-size: 30px;
+    color: white;
+}
+
+#landing_text {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+/* LANDING SECTION END */
+
+/* ABOUT SECTION BEGIN */
+
+#about_section {
+    background-color: #3DD0AC;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#about_title {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+.circular {
+    position: relative;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: -4%;
+    overflow: hidden;
+    width: 125px;
+    height: 125px;
+}
+            
+.circular img {
+    display: block;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+/* ABOUT SECTION END */
+
+/* SERVICES SECTION BEGIN */
+
+#services_section {
+   background-color: #FF5E52;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;    
+}
+
+#services_title {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+#research_description {
+    position: relative;
+    width:33%;
+    height:20%;
+    float:left;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#design_description {
+    position: relative;
+    width:33%;
+    height:20%;
+    float:left;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#develop_description {
+    position: relative;
+    width:33%;
+    height:20%;
+    float:left;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#research_text {
+    position:relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+#design_text {
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+#develop_text {
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+}
+
+/* SERVICES SECTION END */
+
+/* PROJECTS SECTION BEGIN */
+
+#projects_section {
+   background-color: #59ADEC;
+   text-align: center;
+   width: 100%;
+   height: 119%;
+}
+
+#projects_title {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+#project_1 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    background-color: #59ADEC;
+}
+
+#project_2 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    background-color: #59ADEC;
+}
+
+#project_3 {
+    position: relative;
+    width: 100%;
+    height: 33%;
+    background-color: #59ADEC;
+}
+
+#project_1_text {
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 10%;
+}
+
+#project_1_mockup {
+    position:relative;
+    float: right;
+    padding-right: 10%;
+    margin-top: -5%;
+}
+
+#project_2_text {
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 10%;
+}
+
+#project_2_mockup {
+    position:relative;
+    float: right;
+    padding-right: 10%; 
+    margin-top: -5%;
+}
+
+#project_3_text {
+    position: relative;
+    float: left;
+    color: white;
+    padding-left: 10%;
+}
+
+#project_3_mockup {
+    position:relative;
+    float: right;
+    padding-right: 10%;
+    margin-top: -5%;
+}
+
+/* PROJECTS SECTION END */
