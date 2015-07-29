@@ -10,6 +10,7 @@
     
     
     <link rel = "stylesheet" href = "css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 310px) and (max-device-width: 330px)" href="css/iPhone5.css" />
     
     
     <title>Ishan Taparia Development</title>
@@ -47,11 +48,11 @@
         
             I am 
             <br />
-            <p class = "typing_tester"></p>
+            <span id="mobile_landing_text"><p class = "typing_tester"></p></span>
         
         </div>
         
-        <img src="img/landingPage.png" width = 370>
+        <img src="img/landingPage.png" id = "landing_pic" width = 370>
         
         <br />
         
@@ -90,14 +91,14 @@
         
         <br />
         
-        <p style="color:white;font-size:17px;position:relative;margin-left:12%;margin-right:12%"> Hello, my name is Ishan Taparia. I'm a 16 year old UI/UX designer from the wonderful city of Chicago, IL.</p>
-        
-        <p style="color:white;font-size:17px;position:relative;margin-left:12%;margin-right:12%"> I am currently the Co-Founder of TopBox Software, a small company that is dedicated to making a wide variety of applications for mobile, and beautiful, responsive websites for every single client.</p>
+        <p class = "about_paragraph"> Hello, my name is Ishan Taparia. I'm a 16 year old web designer/developer from the wonderful city of Chicago, IL.</p>
+        <br />
+        <p class = "about_paragraph"> With my friend, <span style = "color:#2B98F0;" onClick = "window.open(http://faculty.mdanderson.org/Jennifer_Litton/Default.asp)">Zachary Jordan</span>, I co-founded TopBox Software, a small company dedicated to developing a wide variety of applications for mobile platforms, and beautiful, responsive websites for every single client.</p>
     
         <br /> 
         <br />
         
-        <img src="img/aboutImage.jpg" width=350>
+        <img src="img/aboutImage.jpg" id="about_image" width=350>
         
     </div>
     
@@ -113,21 +114,21 @@
        
         <div id = "research_description">
            
-            <img src="img/research.png" width=300>
+            <img class = "service_img" src="img/research.png" width=300>
             
-            <h4 style="color:white;font-size:30px;position:relative;margin-top:-5%;">Research</h4>
+            <h4 class = "service_heading">Research</h4>
             
             <br />
             
-            <p id = "research_text">Understanding the needs of each individual project is vital in crafting the perfect user experience.</p>
+            <p id = "research_text">Knowing the needs of each individual project is vital in crafting the perfect user experience.</p>
            
         </div>
         
         <div id = "design_description">
            
-            <img src="img/design.png" width=300>
+            <img class = "service_img" src="img/design.png" width=300>
             
-            <h4 style="color:white;font-size:30px;position:relative;margin-top:-5%;">Design</h4>
+            <h4 class = "service_heading">Design</h4>
             
             <br />
             
@@ -137,13 +138,13 @@
         
         <div id = "develop_description">
            
-            <img src="img/develop.png" width=300>
+            <img class = "service_img" src="img/develop.png" width=300>
             
-            <h4 style="color:white;font-size:30px;position:relative;margin-top:-5%;">Development</h4>
+            <h4 class = "service_heading">Develop</h4>
             
             <br />
             
-            <p id = "develop_text">Using HTML5, CSS3, JS, jQuery, I build each project to meet the needs of the client.</p>
+            <p id = "develop_text">Using HTML5, CSS3, JS, and Ruby, I build each project to meet the needs of the client.</p>
            
         </div>
        
