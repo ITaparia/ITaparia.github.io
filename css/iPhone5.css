@@ -31,7 +31,7 @@ html, body {
     height: 20%;
     margin-left: 25%;
     font-size: 20px;
-    line-height: 70px;
+    line-height: 40px;
     min-height: 80px;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@ html, body {
 
 #landing_pic {
     position:relative;
-    margin-top:5%;
+    margin-top:-5%;
     width:270;   
 }
 
@@ -189,10 +189,11 @@ html, body {
 /* PROJECTS SECTION BEGIN */
 
 #projects_section {
-   background-color: #59ADEC;
+   background-color: #F3A828;
    text-align: center;
+   position: relative;
    width: 100%;
-   height: 119%;
+   height: 80%;
 }
 
 #projects_title {
@@ -205,6 +206,7 @@ html, body {
     min-height: 80px;
     color: white;
     text-align: center;
+    background-color: #F3A828;
 }
 
 #projects_box_title {
@@ -212,45 +214,99 @@ html, body {
     width: 50%;
     height: 20%;
     margin-left: 25%;
+    margin-bottom: -9%;
     font-size: 25px;
-    line-height: 70px;
+    line-height: 30px;
     min-height: 80px;
     color: white;
     text-align: center;
-}
-
-.grid {
-    width: 50%;
-    height: 50%;
-    float: left;
+    background-color: #F3A828;
 }
 
 #box1 {
-    background: #59ADEC;
-    width: 50%;
-    height: 50%;
-    float: left;
+    background: #F3A828;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50%; 
 }
 
 #box2 {
-    background: #59ADEC;
-    width: 50%;
-    height: 50%;
-    float: left;
+    background: #F3A828;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50%; 
 }
 
 #box3 {
-    background: #59ADEC;
-    width: 50%;
-    height: 50%;
-    float: left;
+    background: #F3A828;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50%; 
 }
 
 #box4 {
-    background: #59ADEC;
-    width: 50%;
-    height: 50%;
-    float: left;
+    background: #F3A828;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -50%; 
+}
+
+#box5 {
+    top:100%;
+    bottom:1px;
+    background: #F3A828;
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+
+#topbox_logo {
+    width:100;   
+}
+
+#store_button {
+    position: relative;
+    top:20px;
+    display:inline-block;
+    line-height:55px;
+    text-align:center;
+    font-weight:300;
+    font-size:23px;
+    color:white;
+    height:55px;
+    width:205px;
+    margin-bottom: 15px;
+}
+
+#topbox_paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+#center_buttons {
+    text-align:center;
+}
+
+.app_store_color
+{
+	background-color:#00AFF6;
+}
+
+.play_store_color
+{
+	background-color:#40A3B3;
+}
+
+.horizontal_break
+{
+    width:80%;
+}
+
+#footer_text {
+    text-align: center;
+    font-size:12px;
+    color:white;
+    background-color: black;
 }
 
 /* PROJECTS SECTION END */
