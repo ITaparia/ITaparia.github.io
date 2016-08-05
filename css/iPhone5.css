@@ -12,13 +12,30 @@ html, body {
 	font-family: 'Avenir Next W01', 'Avenir Next', 'Proxima Nova', 'Myriad Pro', Helvetica, Calibri, sans-serif;
 }
 
+#itlogo {
+    position:fixed;
+    top:2%;
+    left:2%;
+    z-index: 999;
+    width:50;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
 
 /* GENERAL STYLING END */
 
 /* LANDING SECTION BEGIN */
 
 #landing_section {
-    background-color: #59ADEC;
+    background-color: #40DD86;
     text-align: center;
     width: 100%;
     height:100%;
@@ -52,7 +69,7 @@ html, body {
 /* ABOUT SECTION BEGIN */
 
 #about_section {
-    background-color: #3DD0AC;
+    background-color: #B8ECF2;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -64,10 +81,10 @@ html, body {
     width: 50%;
     height: 20%;
     margin-left: 25%;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 70px;
     min-height: 80px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -75,7 +92,7 @@ html, body {
     position: relative;
     border-radius: 50%;
     margin-left: 34%;
-    margin-top: -4%;
+    margin-top: -16%;
     overflow: hidden;
     width: 100px;
     height: 100px;
@@ -87,8 +104,17 @@ html, body {
     min-height: 50%;
 }
 
+#profile_picture_size {
+    width: 200;
+    position: relative;
+    left: -45%;
+}
+
 .about_paragraph {
-    font-size:12px;   
+    font-size:11px;
+    color:black;
+    position:relative;
+    margin-top: -5%;
 }
 
 #about_image {
@@ -98,105 +124,17 @@ html, body {
 
 /* ABOUT SECTION END */
 
-/* SERVICES SECTION BEGIN */
+/* PROJECT 1 SECTION BEGIN */
 
-#services_section {
-   background-color: #FF5E52;
+#project1_section {
+   background-color: #F8D2B3;
    text-align: center;
    width: 100%;
-   height: 100%;
-   overflow: hidden;    
+   height: 60%;
+   overflow: hidden;
 }
 
-#services_title {
-    position: relative;
-    width: 50%;
-    height: 20%;
-    margin-left: 22%;
-    font-size: 50px;
-    line-height: 70px;
-    min-height: 80px;
-    color: white;
-    text-align: center;
-}
-
-.service_img {
-    width:125;
-    position:relative;
-    left:-10%;
-}
-
-.service_heading {
-    color:white;
-    font-size:17px;
-    position:relative;
-    margin-top:-5%;   
-}
-
-#research_description {
-    position: relative;
-    width:33%;
-    height:20%;
-    float:left;
-    text-align: center;
-    margin-top: -5%;
-}
-
-#design_description {
-    position: relative;
-    width:33%;
-    height:20%;
-    float:left;
-    text-align: center;
-    margin-top: -5%;
-}
-
-#develop_description {
-    position: relative;
-    width:33%;
-    height:20%;
-    float:left;
-    text-align: center;
-    margin-top: -5%;
-}
-
-#research_text {
-    position:relative;
-    padding-left: 15%;
-    padding-right: 15%;
-    color: white;
-    text-align:left;
-}
-
-#design_text {
-    position: relative;
-    padding-left: 15%;
-    padding-right: 15%;
-    color: white;
-    text-align:left;
-}
-
-#develop_text {
-    position: relative;
-    padding-left: 15%;
-    padding-right: 15%;
-    color: white;
-    text-align:left;
-}
-
-/* SERVICES SECTION END */
-
-/* PROJECTS SECTION BEGIN */
-
-#projects_section {
-   background-color: #F3A828;
-   text-align: center;
-   position: relative;
-   width: 100%;
-   height: 80%;
-}
-
-#projects_title {
+#project1_title {
     position: relative;
     width: 50%;
     height: 20%;
@@ -206,107 +144,165 @@ html, body {
     min-height: 80px;
     color: white;
     text-align: center;
-    background-color: #F3A828;
 }
 
-#projects_box_title {
+#project1_info {
+    position:relative;
+    margin-top: 10%;
+}
+
+#project1_picture {
+    position: relative;
+    margin-top: -9%;
+}
+
+#project1_description {
+    font-family: Helvetica Neue;
+}
+
+#project1_img {
+    width: 500;
+    position:relative;
+    left:-40%;
+    margin-top: -20%;
+}
+
+/* PROJECT 1 SECTION END */
+
+/* PROJECT 2 SECTION BEGIN */
+
+#project2_section {
+   background-color: #F5F3E9;
+   text-align: center;
+   width: 100%;
+   height: 60%;
+   overflow: hidden;
+}
+
+#project2_title {
     position: relative;
     width: 50%;
     height: 20%;
     margin-left: 25%;
-    margin-bottom: -9%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
+    text-align: center;
+}
+
+#project2_info {
+    position:relative;
+    margin-top: 10%;
+}
+
+#project2_picture {
+    position: relative;
+    margin-top: -9%;
+}
+
+#project2_description {
+    font-family: Helvetica Neue;
+}
+
+#project2_title_smaller {
     font-size: 25px;
-    line-height: 30px;
+}
+
+#project2_img {
+    width: 500;
+    position:relative;
+    left:-40%;
+    margin-top: -20%;
+}
+
+/* PROJECT 2 SECTION END */
+
+/* PROJECT 3 SECTION BEGIN */
+
+#project3_section {
+   background-color: #96F7F0;
+   text-align: center;
+   width: 100%;
+   height: 60%;
+   overflow: hidden;
+}
+
+#project3_title {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
     min-height: 80px;
     color: white;
     text-align: center;
-    background-color: #F3A828;
 }
 
-#box1 {
-    background: #F3A828;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -50%; 
+#project3_info {
+    position:relative;
+    margin-top: 10%;
 }
 
-#box2 {
-    background: #F3A828;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -50%; 
-}
-
-#box3 {
-    background: #F3A828;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -50%; 
-}
-
-#box4 {
-    background: #F3A828;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -50%; 
-}
-
-#box5 {
-    top:100%;
-    bottom:1px;
-    background: #F3A828;
-    width: 100%;
-    height: 100%;
-    color:white;
-}
-
-#topbox_logo {
-    width:100;   
-}
-
-#store_button {
+#project3_picture {
     position: relative;
-    top:20px;
-    display:inline-block;
-    line-height:55px;
-    text-align:center;
-    font-weight:300;
-    font-size:23px;
-    color:white;
-    height:55px;
-    width:205px;
-    margin-bottom: 15px;
+    margin-top: -9%;
 }
 
-#topbox_paragraph {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-    
-#center_buttons {
-    text-align:center;
+#project3_description {
+    font-family: Helvetica Neue;
 }
 
-.app_store_color
-{
-	background-color:#00AFF6;
+#project3_img {
+    width: 500;
+    position:relative;
+    left:-40%;
+    margin-top: -24%;
+}
+/* PROJECT 3 SECTION END */
+
+/* PROJECT 4 SECTION BEGIN */
+
+#project4_section {
+   background-color: #F7E696;
+   text-align: center;
+   width: 100%;
+   height: 60%;
+   overflow: hidden;
 }
 
-.play_store_color
-{
-	background-color:#40A3B3;
-}
-
-.horizontal_break
-{
-    width:80%;
-}
-
-#footer_text {
+#project4_title {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    font-size: 50px;
+    line-height: 70px;
+    min-height: 80px;
+    color: white;
     text-align: center;
-    font-size:12px;
-    color:white;
-    background-color: black;
 }
 
-/* PROJECTS SECTION END */
+#project4_info {
+    position:relative;
+    margin-top: 10%;
+}
+
+#project4_picture {
+    position: relative;
+    margin-top: -9%;
+}
+
+#project4_description {
+    font-family: Helvetica Neue;
+}
+
+#project4_img {
+    width: 500;
+    position:relative;
+    left:-40%;
+    margin-top: -24%;
+}
+
+/* PROJECT 4 SECTION END */

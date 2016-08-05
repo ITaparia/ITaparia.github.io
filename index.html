@@ -10,7 +10,12 @@
     
     
     <link rel = "stylesheet" href = "css/style.css" />
+    <link rel = "stylesheet" href = "css/skeleton.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 310px) and (max-device-width: 330px)" href="css/iPhone5.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 430px) and (max-device-width: 450px)" href="css/nexus6p.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 410px) and (max-device-width: 420px)" href="css/nexus5xiphone6plus.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 370px) and (max-device-width: 380px)" href="css/iphone6.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 355px) and (max-device-width: 365px)" href="css/galaxys5.css" />
     
     
     <title>Ishan Taparia Development</title>
@@ -39,6 +44,8 @@
     
 </head>
 <body>
+    
+    <a href="#landing_section" class = "smoothScroll"><img id = "itlogo" src = "img/itlogo.png"></a>
     
     <div id = "landing_section">
         
@@ -75,181 +82,136 @@
     
         <div id = "about_title">
         
-            About
+            About Me
             
         </div>
         
         <div class="circular">
             
-            <img src="img/profile_pic.png"/>
+            <img id = "profile_picture_size" src="img/profile_pic.jpg"/>
             
         </div>
         
         <br />
         
-        <p style="color:white;font-size:20px;"><b>Designer, Developer, Student.</b></p>
-        
         <br />
         
-        <p class = "about_paragraph"> Hello, my name is Ishan Taparia. I'm a 16 year old web designer/developer from the wonderful city of Chicago, IL.</p>
+        <p class = "about_paragraph"> Hello from Chicago! My name is Ishan and I'm a cross-disciplined designer & developer currently attending The Ohio State University. I also make <a style = "color:#FE4042;" href="https://soundcloud.com/102938485756/tracks">music!</a></p> 
+            
         <br />
-        <p class = "about_paragraph"> With my friend, <span style = "color:#2B98F0;" onClick = "window.open(http://faculty.mdanderson.org/Jennifer_Litton/Default.asp)">Zachary Jordan</span>, I co-founded TopBox Software, a small company dedicated to developing a wide variety of applications for mobile platforms, and beautiful, responsive websites for every single client.</p>
+        
+            <p class = "about_paragraph">I am familiar with a variety of cutting-edge programming languages and development technologies. These include: Java, HTML, CSS, Javascript, C#, Ruby on Rails, PHP, Phaser, XNA, Photoshop, and the Skeleton Boilerplate.</p>
+        <br />
+        <p class = "about_paragraph"> I co-founded Topbox Software when I was 16 years old with my friend, <a style = "color:#FE4042;" href="zacharyjordan.github.io">Zachary Jordan</a>. Zach and I began developing applications in the summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce websites, games, apps on <a style = "color:#FE4042;" href="zacharyjordan.github.io">iOS</a> and <a style = "color:#FE4042;" href="zacharyjordan.github.io">Android</a>, and everything in between...most of it for free!</p>
     
         <br /> 
         <br />
-        
-        <img src="img/aboutImage.jpg" id="about_image" width=350>
-        
     </div>
     
-    <div id = "services_section">
     
-        <br />
-    
-        <div id = "services_title">
-        
-            Services
-            
-        </div>
-       
-        <div id = "research_description">
-           
-            <img class = "service_img" src="img/research.png" width=300>
-            
-            <h4 class = "service_heading">Research</h4>
-            
-            <br />
-            
-            <p id = "research_text">Knowing the needs of each individual project is vital in crafting the perfect user experience.</p>
-           
-        </div>
-        
-        <div id = "design_description">
-           
-            <img class = "service_img" src="img/design.png" width=300>
-            
-            <h4 class = "service_heading">Design</h4>
-            
-            <br />
-            
-            <p id = "design_text">I design beautiful, responsive web/mobile interfaces that are visually engaging and simple to use.</p>
-           
-        </div>
-        
-        <div id = "develop_description">
-           
-            <img class = "service_img" src="img/develop.png" width=300>
-            
-            <h4 class = "service_heading">Develop</h4>
-            
-            <br />
-            
-            <p id = "develop_text">Specializing in front-end/back-end development, I build each project to meet the needs of the client.</p>
-           
-        </div>
-       
-    </div>
-    
-    <div id = "projects_section">
-        
-        <br />
+    <div id = "project1_section">
 	
-		<div id = "projects_title">
-		
-            Projects
-		
-		</div>
+		<div class = "container">
         
-        <div id = "box1" class = "grid">
-        
-            <div id = "projects_box_title">
+            <div class = "row">
             
-                Student Companion
-            
-            </div>
-            
-            <br />
-            
-            <img src="img/test_mockup_mobile.png" width=60%>
-        
-        </div>
-
-        <div id = "box2" class = "grid">
-        
-            <div id = "projects_box_title">
-            
-                The Cure It Project
-            
-            </div>
-            
-            <br />
-            
-            <img src="img/test_mockup_desktop.png" width=60%>
-        
-        </div>
-        
-        <div id = "box3" class = "grid">
-            
-            <div id = "projects_box_title">
-            
-                Schaumburg Flying Club
-            
-            </div>
-            
-            <br />
-            
-            <img src="img/test_mockup_desktop.png" width=60%>
-            
-        </div>
-
-        <div id = "box4" class = "grid">
-        
-             <div id = "projects_box_title">
-            
-                Easy Sleep
-            
-            </div>
-            
-            <br />
-            
-            <img src="img/test_mockup_mobile.png" width=60%>
-        
-        </div>
-        
-        <hr class = "horizontal_break" style = "position:relative;top:0px;margin-left:10%;"/>  <br />      
-        
-        <div id = "box5" class = "grid">
-        
-            <h2>TopBox Software</h2>
-            
-            <br />
-            
-            <img id = "topbox_logo" src="img/topboxlogo.png">
-            
-            <br />
-            
-            <p id = "topbox_paragraph">Check out the Google Play Store and Apple App Store pages for TopBox Software for a full catalog of our mobile applications</p>
-        
-            <div id = "center_buttons">
-                
-                <div id = "store_button" class = "play_store_color no_selection" onClick = "window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">
+                <div id = "project1_info" class = "one-third column">
                     
-                    App Store
+                    <a class = "link" href="http://thecureitproject.com"><h2>The Cure It Project</h2></a>
+                    
+                    <h6>A reimagining of cancer education.</h6>
+                    
+                    <h6>October 2015 - Present</h6></div>
+                
+                <div id = "project1_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://thecureitproject.com"><img id = "project1_img" src = "img/project1.png"></a>
                 
                 </div>
-                
-                <div id = "store_button" class = "app_store_color no_selection" onClick = "window.open('https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en')">
-                                
-                    Google Play Store
-                
-                </div>
-                
+            
             </div>
+        
         </div>
         
-        <p id = "footer_text">&#169 
-                        Copyright 2015 Ishan Taparia. All Rights Reserved</p>
-	</div>
+    </div>  
+    
+    <div id = "project2_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "project2_info" class = "one-third column">
+                    
+                    <a class = "link" href="http://schaumburgflyingclub.org"><h2 id = "project2_title_smaller">Schaumburg Flying Club</h2></a>
+                    
+                    <h6>Official webpage for Schaumburg's aviation enthusiasts.</h6>
+                    
+                    <h6>March 2016 - Present</h6></div>
+                
+                <div id = "project2_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://schaumburgflyingclub.org"><img id = "project2_img" src = "img/project2.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>  
+    
+    <div id = "project3_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "project3_info" class = "one-third column">
+                    
+                    <a class = "link" href="http://easyemdr.com/"><h2>Easy EMDR</h2></a>
+                    
+                    <h6>A simple tool to help those suffering from PTSD, anxiety, depression, and more.</h6>
+                    
+                    <h6>July 2016 - Present</h6></div>
+                
+                <div id = "project3_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://easyemdr.com/"><img id = "project3_img" src = "img/project3.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>  
+    
+    <div id = "project4_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "project4_info" class = "one-third column">
+                    
+                    <a class = "link" href="http://tonytosh.net"><h2>Lifefit</h2></a>
+                    
+                    <h6>A life coaching/personal training website owned by Tony Tosh</h6>
+                    
+                    <h6>May 2016 - Present</h6></div>
+                
+                <div id = "project4_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://tonytosh.net"><img id = "project4_img" src = "img/project4.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>
 
 </body>
 </html>
