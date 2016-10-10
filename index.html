@@ -7,15 +7,17 @@
     <script src="js/progressbar.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type = "text/javascript" src = "js/script.js"></script>
+    <script src="js/sweetalert.min.js"></script>
     
     
     <link rel = "stylesheet" href = "css/style.css" />
     <link rel = "stylesheet" href = "css/skeleton.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 310px) and (max-device-width: 330px)" href="css/iPhone5.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 430px) and (max-device-width: 450px)" href="css/nexus6p.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 410px) and (max-device-width: 420px)" href="css/nexus5xiphone6plus.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 410px) and (max-device-width: 420px)" href="css/nexus5x6piphone6plus.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 370px) and (max-device-width: 380px)" href="css/iphone6.css" />
     <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 355px) and (max-device-width: 365px)" href="css/galaxys5.css" />
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
     
     
     <title>Ishan Taparia Development</title>
@@ -64,10 +66,10 @@
         <br />
         
         
-        <a href = "https://www.facebook.com/ishan.taparia"><img src="img/facebook_logo.png" width=50></a>
+        <a href = "https://www.linkedin.com/in/ishan-taparia-709518b7"><img src="img/linkedin_logo.png" width=50></a>
         <a href = "https://github.com/ITaparia"><img src="img/github_logo.png" width=50></a>
         <a href = "https://twitter.com/ITaparia"><img src="img/twitter_logo.png" width=50></a>
-        <a href = "mailto:ishan.taparia6769@gmail.com?Subject=[Enter Subject]" target="_top"><img src="img/mail_logo.png" width=50></a>
+        <a href = "mailto:ishan.taparia6769@gmail.com?Subject=[Enter Subject]" target="_top"><img onClick = "openEmail()" src="img/mail_logo.png" width=50></a>
         
         <br />
         <br />
@@ -96,18 +98,47 @@
         
         <br />
         
-        <p class = "about_paragraph"> Hello from Chicago! My name is Ishan and I'm a cross-disciplined designer & developer currently attending The Ohio State University. I also make <a style = "color:#FE4042;" href="https://soundcloud.com/102938485756/tracks">music!</a></p> 
+        <p class = "about_paragraph"> Hello from Chicago! My name is Ishan and I'm an 18 year old cross-disciplined designer & developer currently attending The Ohio State University. I also make <a style = "color:#FE4042;" href="https://soundcloud.com/102938485756/tracks">music!</a></p> 
             
         <br />
         
-            <p class = "about_paragraph">I am familiar with a variety of cutting-edge programming languages and development technologies. These include: Java, HTML, CSS, Javascript, C#, Ruby on Rails, PHP, Phaser, XNA, Photoshop, and the Skeleton Boilerplate.</p>
+            <p class = "about_paragraph">I am familiar with a variety of cutting-edge programming languages and development technologies. These include: Java, HTML, CSS, Javascript, C#, Ruby on Rails, PHP, Phaser, XNA, R. Photoshop, and the Skeleton Boilerplate.</p>
         <br />
-        <p class = "about_paragraph"> I co-founded Topbox Software when I was 16 years old with my friend, <a style = "color:#FE4042;" href="zacharyjordan.github.io">Zachary Jordan</a>. Zach and I began developing applications in the summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce websites, games, apps on <a style = "color:#FE4042;" href="zacharyjordan.github.io">iOS</a> and <a style = "color:#FE4042;" href="zacharyjordan.github.io">Android</a>, and everything in between...most of it for free!</p>
+        <p class = "about_paragraph"> I co-founded Topbox Software when I was 16 years old with my friend, <a style = "color:#FE4042;" href="http://zacharyjordan.github.io">Zachary Jordan</a>. Zach and I began developing applications in the summer of 2014, and achieved legal entity status in the fall of 2015. We regularly produce websites, games, apps on <a style = "color:#FE4042;" href="https://play.google.com/store/apps/developer?id=TopBox%20Software&hl=en">Android</a>, and everything in between...most of it for free!</p>
     
         <br /> 
         <br />
     </div>
     
+    
+    <div id = "mobile1_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "mobile1_info" class = "one-third column">
+                    
+                    <a class = "link" href="https://play.google.com/store/apps/details?id=com.apexsoftware.studentcompanion&hl=en"><h2>Student Companion</h2></a>
+                    
+                    <h6>A toolset that lets students access a variety of educational resources.</h6>
+                    
+                    <h6>August 2014 - Present</h6>
+                </div>
+                
+                <div id = "mobile1_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="https://play.google.com/store/apps/details?id=com.apexsoftware.studentcompanion&hl=en"><img id = "mobile1_img" src = "img/mobile1.png"></a>
+                
+                </div>
+                
+                
+            
+            </div>
+        
+        </div>
+        
+    </div> 
     
     <div id = "project1_section">
 	
@@ -121,13 +152,45 @@
                     
                     <h6>A reimagining of cancer education.</h6>
                     
-                    <h6>October 2015 - Present</h6></div>
+                    <h6>October 2015 - Present</h6>
+                </div>
                 
                 <div id = "project1_picture" class = "two-thirds column">
                     
                     <a class = "link" href="http://thecureitproject.com"><img id = "project1_img" src = "img/project1.png"></a>
                 
                 </div>
+                
+                
+            
+            </div>
+        
+        </div>
+        
+    </div>  
+    
+    <div id = "watch1_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "watch1_info" class = "one-third column">
+                    
+                    <a class = "link" href="https://apps.getpebble.com/applications/5553a797dd51ada01f000070"><h2>Navi Watchface</h2></a>
+                    
+                    <h6>A watch face with time and date functionality for all Legend of Zelda fans</h6>
+                    
+                    <h6>May 2015 - Present</h6>
+                </div>
+                
+                <div id = "watch1_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="https://apps.getpebble.com/applications/5553a797dd51ada01f000070"><img id = "watch1_img" src = "img/watch1.png"></a>
+                
+                </div>
+                
+                
             
             </div>
         
@@ -159,7 +222,33 @@
         
         </div>
         
-    </div>  
+    </div>
+    
+    <div id = "mobile2_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "mobile2_info" class = "one-third column">
+                    
+                    <a class = "link" href="http://schaumburgflyingclub.org"><h2 id = "mobile2_title_smaller">Easy Sleep</h2></a>
+                    
+                    <h6>Doing away with groggy mornings.</h6>
+                    
+                    <h6>July 2015 - Present</h6></div>
+                
+                <div id = "mobile2_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://schaumburgflyingclub.org"><img id = "mobile2_img" src = "img/mobile2.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>
     
     <div id = "project3_section">
 	
@@ -185,7 +274,62 @@
         
         </div>
         
-    </div>  
+    </div>
+    
+    <div id = "mobile3_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "mobile3_info" class = "one-third column">
+                    
+                    <a class = "link" href="http://easyemdr.com/"><h2>Slow Cook</h2></a>
+                    
+                    <h6>Making better tasting meals possible for everyone.</h6>
+                    
+                    <h6>July 2015 - Present</h6></div>
+                
+                <div id = "mobile3_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="http://easyemdr.com/"><img id = "mobile3_img" src = "img/mobile3.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>
+    
+    <div id = "watch2_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "watch2_info" class = "one-third column">
+                    
+                    <a class = "link" href="https://apps.getpebble.com/applications/5665ee1d2369a71e6c00007a"><h2>Pokeball Watchface</h2></a>
+                    
+                    <h6>A watch face with time and date functionality for all Pokemon fans</h6>
+                    
+                    <h6>December 2015 - Present</h6>
+                </div>
+                
+                <div id = "watch2_picture" class = "two-thirds column">
+                    
+                    <a class = "link" href="https://apps.getpebble.com/applications/5665ee1d2369a71e6c00007a"><img id = "watch2_img" src = "img/watch2.png"></a>
+                
+                </div>
+                
+                
+            
+            </div>
+        
+        </div>
+        
+    </div>
     
     <div id = "project4_section">
 	
@@ -195,15 +339,67 @@
             
                 <div id = "project4_info" class = "one-third column">
                     
-                    <a class = "link" href="http://tonytosh.net"><h2>Lifefit</h2></a>
+                    <a class = "link" href="http://gotitsoftware.com"><h2>Got/IT Software</h2></a>
                     
-                    <h6>A life coaching/personal training website owned by Tony Tosh</h6>
+                    <h6>The official website for Got/IT Software, a technological/business consulting company based in Chicago, IL</h6>
                     
-                    <h6>May 2016 - Present</h6></div>
+                    <h6>October 2016 - Present</h6></div>
                 
                 <div id = "project4_picture" class = "two-thirds column">
                     
-                    <a class = "link" href="http://tonytosh.net"><img id = "project4_img" src = "img/project4.png"></a>
+                    <a class = "link" href="http://gotitsoftware.com"><img id = "project4_img" src = "img/project4.png"></a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </div>
+    
+    <div id = "contact_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "contact_info" class = "two-thirds column">
+                    
+                    Got a project you'd like some help with? Questions? Hate mail?<br /><br />
+                    
+                    Reach out and let's talk about it.
+                     
+                </div>
+                
+                <div id = "contact_picture" class = "one-third column">
+                    
+                    taparia.3@osu.edu<br />
+                    
+                    +1 (630) 562 6817<br />
+                    
+                    <a class = "link" style="color:white!important;" href="https://resume.creddle.io/resume/5jh27wxisgb">Resume</a>                 
+                    
+                </div>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+    
+    <div id = "footer_section">
+	
+		<div class = "container">
+        
+            <div class = "row">
+            
+                <div id = "footer_info" class = "twelve columns">
+                    
+                    &#169; Copyright 2016 Ishan Taparia.
+                     
+                </div>
+                
+                
                 
                 </div>
             
@@ -213,5 +409,16 @@
         
     </div>
 
+    <script>
+    
+        function openEmail()
+        {
+            
+            swal({   title: "Contact Me!",   text: "taparia.3@osu.edu", allowOutsideClick: true, showConfirmButton: false});
+            
+        }
+        
+    </script>
+    
 </body>
 </html>
