@@ -105,9 +105,10 @@ h2 {
 }
 
 #profile_picture_size {
-    width: 200;
+    width: 125;
     position: relative;
-    left: -45%;
+    left:-10%;
+    top: -20%
 }
 
 .about_paragraph {
